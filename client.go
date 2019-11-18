@@ -28,14 +28,14 @@ package rmux
 import (
 	"bytes"
 	"errors"
-	"github.com/salesforce/rmux/connection"
-	. "github.com/salesforce/rmux/log"
-	"github.com/salesforce/rmux/protocol"
-	. "github.com/salesforce/rmux/writer"
+	"github.com/pd-aray/rmux/connection"
+	. "github.com/pd-aray/rmux/log"
+	"github.com/pd-aray/rmux/protocol"
+	. "github.com/pd-aray/rmux/writer"
 	"io"
 	"net"
 	"time"
-	"github.com/salesforce/rmux/graphite"
+	"github.com/pd-aray/rmux/graphite"
 )
 
 type readItem struct {

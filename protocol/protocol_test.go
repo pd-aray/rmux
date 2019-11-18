@@ -28,7 +28,7 @@ package protocol
 import (
 	"bufio"
 	"bytes"
-	"github.com/salesforce/rmux/writer"
+	"github.com/pd-aray/rmux/writer"
 	"strings"
 	"testing"
 )

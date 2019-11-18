@@ -29,8 +29,8 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/salesforce/rmux"
-	. "github.com/salesforce/rmux/log"
+	"github.com/pd-aray/rmux"
+	. "github.com/pd-aray/rmux/log"
 	"net"
 	"os"
 	"runtime"
@@ -39,7 +39,7 @@ import (
 	"strings"
 	"sync"
 	"syscall"
-	"github.com/salesforce/rmux/graphite"
+	"github.com/pd-aray/rmux/graphite"
 	"time"
 )
 
